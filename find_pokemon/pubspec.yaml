@@ -1,0 +1,92 @@
+name: pokemon
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  cached_network_image: ^3.2.2
+  carousel_slider: ^4.1.1
+  firebase_core: ^2.1.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_launcher_icons: ^0.10.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.2.14
+  intl: ^0.17.0
+  pokemons_api:
+    path: packages/pokemons_api
+  pokemons_repository:
+    path: packages/pokemons_repository
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  mockingjay: ^0.3.0
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito-BlackItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Nunito-ExtraLightItalic.ttf
+          style: italic
+          weight: 200
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/pokemon.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: "launcher_icon"
+  image_path: assets/images/icon.png
+  background_color: "#000000"
+  min_sdk_android: 21

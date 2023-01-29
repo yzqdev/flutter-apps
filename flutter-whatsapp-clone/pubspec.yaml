@@ -1,0 +1,67 @@
+name: whatsapp
+description: WhatsApp UI clone built with Flutter
+
+publish_to: "none"
+
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  uuid: ^3.0.6
+  intl: ^0.17.0
+  visibility_detector: ^0.3.3
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+      ref: 17d4710c17f4913137e7ec931f6e71eaef443363
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.15
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+# flutter_launcher_icons config
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/whatsapp-icon.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icons/whatsapp-icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icons/whatsapp-icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icons/whatsapp-icon.png"
+
+# flutter_native_splash config
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#111B21"
+  image: "assets/images/whatsapp-splash-image-light.png"
+  image_dark: "assets/images/whatsapp-splash-image-dark.png"
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#111B21"
+    image: "assets/images/whatsapp-splash-image-light.png"
+    image_dark: "assets/images/whatsapp-splash-image-dark.png"

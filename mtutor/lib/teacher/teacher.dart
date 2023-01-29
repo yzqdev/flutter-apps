@@ -1,0 +1,1 @@
+export 'view/teacher_page.dart';

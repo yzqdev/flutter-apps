@@ -1,0 +1,51 @@
+{
+    "@@locale": "en",
+    "searching": "Searching",
+    "@searching": {
+        "description": "Searching"
+    },
+    "favorites": "Favorites",
+    "@favorites": {
+        "description": "Favorites"
+    },
+    "typePokemonName": "Type pokemon name",
+    "@typePokemonName": {
+        "description": "Type pokemon name"
+    },
+    "fetchingPokemonsFailed": "Fetching pokemons has been failed",
+    "@fetchingPokemonsFailed": {
+        "description": "Fetching pokemons has been failed"
+    },
+    "sthWentWrong": "Something went wrong",
+    "@sthWentWrong": {
+        "description": "Something went wrong"
+    },
+    "checkInternetConnection": "Check internet connection",
+    "@checkInternetConnection": {
+        "description": "Check internet connection"
+    },
+    "height": "Height",
+    "@height": {
+        "description": "Pokemon height"
+    },
+    "weight": "Weight",
+    "@weight": {
+        "description": "Pokemon Weight"
+    },
+    "cm": "cm",
+    "@cm": {
+        "description": "cm - height unit"
+    },
+    "kg": "kg",
+    "@kg": {
+        "description": "kg - Weight unit"
+    },
+    "noFavoritePokemons": "You have not saved any pokemon as favorite.",
+    "@noFavoritePokemons": {
+        "description": "text shown when there are no pokemon saved as favorites"
+    },
+    "noPokemonsFound": "No pokemons found",
+    "@noPokemonsFound": {
+        "description": "text shown when there are no pokemons found in searching"
+    }
+}

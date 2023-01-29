@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140371791527",
+    "project_id": "moviedatabase-5daa7",
+    "storage_bucket": "moviedatabase-5daa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140371791527:android:f1ed5612ecd100e21a5582",
+        "android_client_info": {
+          "package_name": "com.skuller.tmdbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140371791527-sqif38h7sc0fc30727mr84bl0i2sh85i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL3yKOEUexx-aZGmYnmruSjxfRcaU7nCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140371791527-sqif38h7sc0fc30727mr84bl0i2sh85i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

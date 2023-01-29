@@ -1,0 +1,10 @@
+# Custom Dictionary Words
+decimetres
+Nunito
+pikachu
+pokeapi
+Pokemons
+Reorderable
+sublist
+Szukaj
+Ulubione
